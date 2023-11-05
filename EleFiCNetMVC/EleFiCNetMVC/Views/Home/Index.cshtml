@@ -1,0 +1,137 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<body>
+	<!--HERO AREA-->
+	<section class="hero-area">
+		<div class="d-flex justify-content-end align-items-end">
+			<div class="block">
+				<h2>Making Health Care <br /> Better<span style="color: white"> Together </span></h2>
+				<p class="banner-p text-black">Welcome to eleficNet.<br /> Here we care about you and your health and we want to make your life easier</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!--SERVICE SECTION-->
+	<section class="services" id="services">
+		<div class="container">
+			<div class="title">
+				<h class="text-center">Services</h>
+				<h1 class="text-center">What we can do for you</h1>
+			</div>
+		</div>
+	</section>
+
+	<section class="services-content" id="services-content">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-xl-3 col-sm-6 mb-5 ">
+					<div class="bg-white rounded shadow-sm py-5 px-4 h-100">
+						<img class="card-img" src="~/media/pharmacyIcon.jpg" alt="pharmacy icon" />
+						<h5 class="card-title">Pharmacy</h5>
+						<hr />
+						<p class="card-text"> Find the Pharmacies of Kastoria that are open day&night, their address and how to contact them at any time</p>
+						<hr />
+						<a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Pharmacy">View</a>
+					</div>
+				</div>
+				<!-- End -->
+				<div class="col-xl-3 col-sm-6 mb-5">
+					<div class="bg-white rounded shadow-sm py-5 px-4 h-100">
+						<img class="card-img" src="~/media/mlabIcon.jpg" alt="microscope icon" />
+						<h5 class="card-title">Microbiological <br /> Labs</h5>
+						<hr />
+						<p class="card-text"> Find the Microbiological Lab that are open, their address and how to contact them at any time</p>
+						<hr />
+						<a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="MicrobiologicalLabs">View</a>
+					</div>
+				</div>
+				<!-- End -->
+				<div class="col-xl-3 col-sm-6 mb-5">
+					<div class="bg-white rounded shadow-sm py-5 px-4 h-100">
+						<img class="card-img" src="~/media/doctorsIcon.jpg" alt="doctors icon" />
+						<h5 class="card-title">Doctors</h5>
+						<hr />
+						<p class="card-text"> Find the Doctors of Kastoria that you need, their address and how to contact them at any time</p>
+						<hr />
+						<a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Doctors">View</a>
+					</div>
+				</div>
+				<!-- End -->
+				<div class="col-xl-3 col-sm-6 mb-5">
+					<div class="bg-white rounded shadow-sm py-5 px-4 h-100">
+						<img class="card-img " src="~/media/ambulanceIcon.jpg" alt="ambulance icon" />
+						<h5 class="card-title">Emergency</h5>
+						<hr />
+						<p class="card-text"> Find the Emergency lines of Kastoria, how to provide first aid at any time</p>
+						<hr />
+						<a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Emergency">View</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--e-Medical SECTION-->
+
+	<section id="medical">
+		<div class="container">
+			<div class="row ">
+				<div class="title">
+					<h>e-Medical</h>
+					<h1>My Electronic Health Records</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 ">
+						<img class="medical-img" src="~/media/medical.jpg" alt=" " />
+					</div>
+					<div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
+						<h2>Create your e-Medical File </h2>
+						<p> With eleficNet you can create your own e-medical file and have access to your records anywhere at anytime </p>
+						<div>
+							<a class="btn btn-primary btn-lg" asp-area="" asp-controller="Home" asp-action="eFile" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Create</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--About SECTION-->
+
+	<section class="about-us" id="about">
+		<div class="container">
+			<div class="row ">
+				<div class="title">
+					<h>About us</h>
+					<h1>Who are we & What we provide</h1>
+				</div>
+				<div class="row ">
+					<div class="col-lg-6 ">
+						<img class="img-fluid" src="~/media/about.jpg" alt=" " />
+					</div>
+					<div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
+						<h2>Honours Project Development Idea </h2>
+						<p> This project is a product of a Honours Software Development Degree. The idea of the project is to develop a web based healthcare support application that is uniquely created in Greece, specifically for the area of Kastorias. The aim is to make more practical, user-friendly, accurate, and safer online method compared to the traditional methods.   </p>
+					</div>
+					<br />
+					<div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
+						<h2>The Functionality of this web app </h2>
+						<p> The core functionality of this web-based application includes the availability of crucial details like local pharmacies, doctors with their names, contact information, professional specialty and location, a list of emergency contact numbers, as well as guidelines and instructions on fundamental first aid techniques. In addition, the application provides users with the option to register for an account and keep a personal medical record (a medical electronic file), allowing them to input and securely store their personal health information, effectively replacing the traditional health booklet. </p>
+					</div>
+					<div class="col-lg-6 ">
+						<img class="img-fluid" src="~/media/about2.jpg" alt=" " />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<br />
+	<br />
+	<br />
+	<br />
+
+</body>

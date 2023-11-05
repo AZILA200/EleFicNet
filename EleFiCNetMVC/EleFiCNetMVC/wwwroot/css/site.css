@@ -18,5 +18,291 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+/* =========================
+        Nav  style 
+   =========================*/
+.navbar-title {
+    font-size: 25px;
+    color: black;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: blue;
+}
+/* =========================
+   Footer style  area
+   =========================*/
+
+.top-footer {
+    background-color: #172554;
+    border-top: 1px solid #404040;
+    padding: 100px 0 80px;
+}
+
+    .top-footer h5 {
+        font-size: 20px;
+        line-height: 3;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 7px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    .top-footer a {
+        font-size: 20px;
+        line-height: 2;
+        text-decoration: none;
+    }
+
+.footer-bottom {
+    text-align: center;
+    background-color: #172554;
+    border-top: 1px solid white;
+    padding: 30px 0;
+}
+
+    .footer-bottom h5 {
+        font-size: 15px;
+        line-height: 1;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 7px;
+        margin-bottom: 3px;
+    }
+
+    .footer-bottom h6 {
+        font-size: 12px;
+        line-height: 15px;
+        color: white;
+        font-weight: 400;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+
+.f-icons {
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* =========================
+               INDEX
+   =========================*/
+
+
+
+/* =========================
+   Home page style Hero area
+   =========================*/
+
+
+.hero-area {
+    background: url('../media/herobanner.jpg');
+    background-size: cover;
+    padding: 350px;
+    position: relative;
+}
+
+@media (max-width: 480px) {
+    .hero-area {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-area .block {
+        padding: 0;
+    }
+}
+
+.hero-area h2 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color: black;
+}
+
+.hero-area .block p {
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   Home page style Services area
+   =========================*/
+
+#services {
+    padding: 70px 0 10px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+    .title h {
+        color: #333;
+        font-size: 20px;
+        padding-bottom: 25px;
+        display: inline-block;
+        position: relative;
+    }
+
+    .title h1 {
+        font-size: 30px;
+        line-height: 24px;
+        color: black;
+    }
+
+.card-img {
+    width: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+#services-content {
+    padding: 50px 0 10px;
+}
+
+.services-content {
+    background-color: #e0f2fe;
+}
+
+
+/* ==============================
+   Home page style e-Medical area
+   =============================*/
+#medical {
+    padding: 80px 0 150px;
+}
+
+.medical-img {
+    width: 550px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* =========================
+   Home page style About area
+   =========================*/
+.about-us {
+    background-color: #f3f4f6;
+}
+
+#about {
+    padding: 80px 0 80px;
+}
+
+
+
+/* =========================
+             ABOUT
+   =========================*/
+
+
+/* =========================
+         Hero area
+   =========================*/
+
+
+#banner {
+    background: url(../media/aboutbanner.jpg);
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+}
+
+    #banner .block h1 {
+        padding-bottom: 30px;
+        font-size: 80px;
+        font-weight: 100;
+        color: black;
+    }
+
+    #banner .block h2 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 300;
+        color: black;
+    }
+
+
+/* =========================
+         CONTENT area
+   =========================*/
+
+#about-1 {
+    padding: 50px 0 60px;
+    margin-left: 300px;
+}
+
+.about-1 {
+    background-color: #bae6fd;
+}
+
+.about-title {
+    font-size: 25px;
+    color: darkblue;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.about-title-2 {
+    font-size: 25px;
+    color: black;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.about-p-1 {
+    font-size: 20px;
+    color: black;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+#about-2 {
+    padding: 50px 0 70px;
+    margin-right: 300px;
+}
+
+.about-2 {
+    background-color: #bae6fd;
+}
 }

@@ -1,52 +1,143 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Movie App</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <title>@ViewData["Title"] - EleficNet</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EleficNet.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">EleFiC</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
-                </div>
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-white">
+        <div class="container-fluid">
+            <a class="navbar-title" asp-area="" asp-controller="Home" asp-action="Index">EleficNet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse">
+                <ul class="navbar-nav  ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Pharmacy">Pharmacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Microbiological Labs">Microbiological Labs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Doctors">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Emergency">Emergency</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="eFile">eFile</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+                <partial name="_LoginPartial" />
+                </ul>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+        </div>
+    </nav>
+
+    <div class="container-expand-lg ">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - EleFiC App - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <!-- Footer -->
+    <footer id="footer" class="bg-one">
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Content</h5>
+                        <ul class="list-unstyled mb-3">
+                            <li>
+                                <a class="text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li>
+                                <a class=" text-white" asp-area="" asp-controller="Home" asp-action="About">About</a>
+                            </li>
+                            <li>
+                                <a class=" text-white" asp-area="" asp-controller="Home" asp-action="Pharmacy">Pharmacy</a>
+                            </li>
+                            <li>
+                                <a class=" text-white" asp-area="" asp-controller="Home" asp-action="Microbiological Labs">Microbiological Labs</a>
+                            </li>
+                            <li>
+                                <a class="text-white" asp-area="" asp-controller="Home" asp-action="Doctors">Doctors</a>
+                            </li>
+                            <li>
+                                <a class="text-white" asp-area="" asp-controller="Home" asp-action="Emergency">Emergency</a>
+                            </li>
+                            <li>
+                                <a class="text-white" asp-area="" asp-controller="Home" asp-action="eFile">eFile</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-0">Contact us</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class=" text-white" href="mailto: abc@example.com">eleficNet@outlook.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Social Media</h5>
+                        <ul class="list-unstyled mb-0 d-flex">
+                            <li>
+                                <a target="_blank" class="ds-link-as-button ds-button ds-button__light ds-button__icon  ds-button-enabled ds-button-rounded ds-button-dots-text Desktop-module__social-button_pJ8mSq0870" href="https://www.facebook.com" rel="nofollow"><img class="f-icons" src="/media/facebook.png" alt="Facebook" loading="lazy"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="ds-link-as-button ds-button ds-button__light ds-button__icon  ds-button-enabled ds-button-rounded ds-button-dots-text Desktop-module__social-button_pJ8mSq0870" href="https://www.instagram.com" rel="nofollow"><img class="f-icons" src="/media/instagram.png" alt="Instagram" loading="lazy"></a>
+                            </li>
+                            <li>
+                                <a target="_blank" class="ds-link-as-button ds-button ds-button__light ds-button__icon  ds-button-enabled ds-button-rounded ds-button-dots-text Desktop-module__social-button_pJ8mSq0870" href="https://www.twitter.com" rel="nofollow"><img class="f-icons" src="/media/twitter.png" alt="Instagram" loading="lazy"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Join us</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                  <a class="btn btn-outline-light btn-rounded"
+                                asp-area="Identity" asp-page="/Account/Register"
+                                role="button">
+                                Sign up
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <div class="footer-bottom">
+            <h5>Copyright @@ @DateTime.Now.Year</h5>
+            <h6>Design and Developed For eleficNet </h6>
+        </div>
+    </footer> <!-- end footer -->
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @RenderSection("Scripts", required: false)
+
+
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

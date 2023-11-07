@@ -1,0 +1,70 @@
+﻿@page
+@model EleFiCNetMVC.Views.Home.PharmacyModel
+@{
+}
+
+<body>
+
+	<!--HERO AREA-->
+	<section id="p-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="block">
+						<h>The Local <br />Pharmacies of Kastoria</h>
+						<p>
+							Here you can find the <span style="color: white"> Pharmacies </span> that are on duty day and night. <br />and you can find information about  <span style="color: white"> Drugs.</span> <br />  At Any <span style="color: white">Time. </span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Pharmacies SECTION-->
+
+	<section id="p-services">
+		<div class="container">
+			<div class="row ">
+				<div class="title">
+					<h>Services</h>
+					<h1>What can we do for you</h1>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 ">
+						<img class="pharmacy-img" src="~/media/pharmacy.jpg" alt=" " />
+					</div>
+					<div class="col-lg-6 pt-4 pt-lg-0 content justify-content-center">
+						<h class="p-title badge rounded-pill">Pharmacy</h>
+						<h1 class="p-title-2">Find your Local Pharmacy</h1>
+						<p class="p-pargh "> Here you can find all the local Pharmacies of Kastoria that are open day and night</p>
+						<div>
+							<a class="btn btn-primary btn-lg" asp-area="" asp-controller="Home" asp-action="" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">View</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--DRUGS SECTION-->
+
+	<section id="drug-services">
+		<div class="container">
+				<div class="row">
+					<div class="col-lg-6 ">
+						<img class="img-fluid" src="~/media/drug.jpg" alt=" " />
+					</div>
+					<div class="col-lg-6 pt-4 pt-lg-0 content justify-content-center">
+					<h class="drug-title badge rounded-pill"> Drugs</h>
+						<h1 class="drug-title-2">Find your Drug  </h1>
+					    <p class="drug-p-1"> Here you can find information about all the Drugs. </p>
+						<div>
+							<a class="btn btn-primary btn-lg" asp-area="" asp-controller="Home" asp-action="" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">View</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+</body>

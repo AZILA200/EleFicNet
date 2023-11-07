@@ -124,10 +124,10 @@ body {
    =========================*/
 
 
-.hero-area {
-    background: url('../media/herobanner.jpg');
+#hero-area {
+    background: url('../media/indexbanner.jpg');
     background-size: cover;
-    padding: 350px;
+    padding: 390px 0;
     position: relative;
 }
 
@@ -143,18 +143,19 @@ body {
     }
 }
 
-.hero-area h2 {
-    font-size: 80px;
-    margin-bottom: 20px;
-    margin-left: 5px;
+#hero-area .block h {
+    font-size: 60px;
     color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
-.hero-area .block p {
+#hero-area .block p {
     color: black;
     font-size: 20px;
     margin-left: 5px;
+    margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 /* =========================
@@ -167,7 +168,7 @@ body {
 
 .title {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
     .title h {
@@ -223,6 +224,7 @@ body {
 
 #about {
     padding: 80px 0 80px;
+    margin-bottom: 100px;
 }
 
 
@@ -240,22 +242,24 @@ body {
 #banner {
     background: url(../media/aboutbanner.jpg);
     background-size: cover;
-    padding: 250px 0;
+    padding: 200px 0;
     position: relative;
 }
 
-    #banner .block h1 {
-        padding-bottom: 30px;
-        font-size: 80px;
-        font-weight: 100;
+    #banner .block h {
+        font-size: 60px;
         color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    #banner .block h2 {
-        font-size: 25px;
-        line-height: 30px;
-        font-weight: 300;
+    #banner .block p {
         color: black;
+        font-size: 27px;
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
     }
 
 
@@ -264,8 +268,10 @@ body {
    =========================*/
 
 #about-1 {
-    padding: 50px 0 60px;
+    padding: 60px 0 80px;
     margin-left: 300px;
+    margin-bottom: 100px;
+    margin-top:100px;
 }
 
 .about-1 {
@@ -298,11 +304,112 @@ body {
 }
 
 #about-2 {
-    padding: 50px 0 70px;
+    padding: 70px 0 60px;
     margin-right: 300px;
+    margin-bottom: 100px;
+    margin-top:20px;
 }
 
 .about-2 {
     background-color: #bae6fd;
 }
+
+
+
+
+
+/* =========================
+         PHARMACY
+   =========================*/
+
+
+/* =========================
+         Hero area
+   =========================*/
+#p-banner {
+    background: url(../media/pharmacybanner.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+}
+
+#p-banner .block h {
+        font-size: 60px;
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+#p-banner .block p {
+        color: black;
+        font-size: 27px;
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+
+/* =========================
+         CONTENT area
+   =========================*/
+#p-services {
+    padding: 90px 0 80px;
+    
+}
+
+#drug-services {
+    padding: 80px 0 80px;
+    margin-bottom: 100px;
+}
+
+.pharmacy-img {
+    width: 636px;
+}
+
+.p-title {
+    font-size: 20px;
+    color: #dc2626;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    line-height: 20px;
+    background-color: #fca5a5;
+}
+
+.p-title-2 {
+    font-size: 20px;
+    color: black;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.p-pargh {
+    font-size: 20px;
+    color: black;
+}
+
+
+.drug-title {
+    font-size: 15px;
+    color: #166534;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    line-height: 20px;
+    background-color: #d9f99d;
+}
+
+.drug-title-2 {
+    font-size: 20px;
+    color: black;
+    line-height: 60px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.drug-p-1 {
+    font-size: 20px;
+    color: black;
 }

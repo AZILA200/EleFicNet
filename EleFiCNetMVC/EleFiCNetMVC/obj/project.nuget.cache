@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PkqjYvV7NNWbzQENCkP5gxZnfmOXqw7tTsNlROWbkdwNyC2oZPQ3GzQFupWu+YI3aJxIOFmyB+kamfMy5100Ww==",
+  "dgSpecHash": "u4oi/S9N1kN2JAjwTqN81ifq4woLdkBV0ObR3wAnNee/ChdMDMCPMLIb361G/1b5vRvpl1mIswwSoFs2XfIi3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

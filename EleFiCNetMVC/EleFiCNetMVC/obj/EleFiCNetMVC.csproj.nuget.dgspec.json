@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Source\\Repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj": {}
+    "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Source\\Repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj": {
+    "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj",
         "projectName": "EleFiCNetMVC",
-        "projectPath": "C:\\Users\\user\\Source\\Repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\EleFiCNetMVC.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Source\\Repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

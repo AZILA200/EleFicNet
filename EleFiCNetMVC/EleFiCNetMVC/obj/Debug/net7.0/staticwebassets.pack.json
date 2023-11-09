@@ -281,6 +281,10 @@
       "PackagePath": "staticwebassets\\media\\instagram.png"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\labbanner.jpg",
+      "PackagePath": "staticwebassets\\media\\labbanner.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\medical.jpg",
       "PackagePath": "staticwebassets\\media\\medical.jpg"
     },

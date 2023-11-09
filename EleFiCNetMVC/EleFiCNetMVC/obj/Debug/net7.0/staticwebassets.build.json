@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MRsE8pEIJ1Dr3De+v98jtwJhxyA407CPKSWAkM8cIUU=",
+  "Hash": "HWYoT/YFeWdDyJwJ1DQEtGPdb2dcWZAQZKpG+TfU4P8=",
   "Source": "EleFiCNetMVC",
   "BasePath": "_content/EleFiCNetMVC",
   "Mode": "Default",
@@ -2242,6 +2242,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\instagram.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\labbanner.jpg",
+      "SourceId": "EleFiCNetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\",
+      "BasePath": "_content/EleFiCNetMVC",
+      "RelativePath": "media/labbanner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\labbanner.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\medical.jpg",

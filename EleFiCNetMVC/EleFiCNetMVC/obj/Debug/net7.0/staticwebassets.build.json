@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HWYoT/YFeWdDyJwJ1DQEtGPdb2dcWZAQZKpG+TfU4P8=",
+  "Hash": "204X5cC0nLTyVf4g3ixp9FJ+nOEuFu0VRfMFSRKq98o=",
   "Source": "EleFiCNetMVC",
   "BasePath": "_content/EleFiCNetMVC",
   "Mode": "Default",
@@ -2157,6 +2157,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\ambulanceIcon.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\docbanner.jpg",
+      "SourceId": "EleFiCNetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\",
+      "BasePath": "_content/EleFiCNetMVC",
+      "RelativePath": "media/docbanner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\docbanner.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\doctorsIcon.jpg",

@@ -11,7 +11,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="block">
-						<h>The Local <br />Microbiological  <span style="color: white">Labs </span>of Kastoria</h>
+						<h>The Local <br />Microbiological Labs of Kastoria</h>
 						<p>
 							Here you can find information about all the <br> Microbiological Labs of the area </p>
 					</div>
@@ -21,10 +21,22 @@
 	</section>
 
 
+	<!--SERVICE SECTION-->
+	<section class="services" id="services">
+		<div class="container">
+			<div class="title">
+				<h class="text-center">Labs</h>
+				<h1 class="text-center">Find your Lab</h1>
+				@*Searchbar to be added*@
+			</div>
+		</div>
+	</section>
+
+
 	<!--CONTENT AREA-->
 	<section id="lab-cards">
 		<div class="container py-2">
-			<div class="pageHeaderDate"> Date:@Html.Label("DateCreated", DateTime.Today.ToShortDateString().ToString(), new { @readonly = "readonly" })</div>
+			<div class="pageHeaderDate"> Date: @Html.Label("DateCreated", DateTime.Today.ToShortDateString().ToString(), new { @readonly = "readonly" })</div>
 			<article class="postcard light yellow">
 				<a class="postcard__img_link" href="#">
 					<img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />

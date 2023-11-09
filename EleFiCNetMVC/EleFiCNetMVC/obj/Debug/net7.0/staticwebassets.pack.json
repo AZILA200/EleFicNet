@@ -261,6 +261,10 @@
       "PackagePath": "staticwebassets\\media\\ambulanceIcon.jpg"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\docbanner.jpg",
+      "PackagePath": "staticwebassets\\media\\docbanner.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\doctorsIcon.jpg",
       "PackagePath": "staticwebassets\\media\\doctorsIcon.jpg"
     },

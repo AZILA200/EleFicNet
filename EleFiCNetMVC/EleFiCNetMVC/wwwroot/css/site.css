@@ -192,13 +192,13 @@ body {
     position: relative;
 }
 
+
+
 #services-content {
+    background-color: #f3f4f6;
     padding: 50px 0 10px;
 }
 
-.services-content {
-    background-color: #e0f2fe;
-}
 
 
 /* ==============================
@@ -275,7 +275,7 @@ body {
 }
 
 .about-1 {
-    background-color: #bae6fd;
+    background-color: #f3f4f6;
 }
 
 .about-title {
@@ -311,7 +311,7 @@ body {
 }
 
 .about-2 {
-    background-color: #bae6fd;
+    background-color: #f3f4f6;
 }
 
 
@@ -354,13 +354,9 @@ body {
          CONTENT area
    =========================*/
 #p-services {
-    padding: 90px 0 80px;
-    
-}
-
-#drug-services {
-    padding: 80px 0 80px;
-    margin-bottom: 100px;
+    padding: 60px;
+    background-color: #f3f5f7;
+    margin-bottom:90px; 
 }
 
 .pharmacy-img {
@@ -429,7 +425,7 @@ body {
 #lab-banner {
     background: url(../media/labbanner.jpg);
     background-size: cover;
-    padding: 350px 0;
+    padding: 300px 0;
     position: relative;
 }
 
@@ -684,209 +680,71 @@ a {
 }
 }
 
-/* COLORS */
-.postcard .postcard__tagbox .green.play:hover {
-    background: $main-green;
-    color: black;
+
+/* =========================
+         DOCTORS
+   =========================*/
+
+
+/* =========================
+         Hero area
+   =========================*/
+#doc-banner {
+    background: url(../media/docbanner.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
 }
 
-.green .postcard__title:hover {
-    color: $main-green;
-}
-
-.green .postcard__bar {
-    background-color: $main-green;
-}
-
-.green::before {
-    background-image: linear-gradient( -30deg, $main-green-rgb-015, transparent 50% );
-}
-
-.green:nth-child(2n)::before {
-    background-image: linear-gradient(30deg, $main-green-rgb-015, transparent 50%);
-}
-
-.postcard .postcard__tagbox .blue.play:hover {
-    background: $main-blue;
-}
-
-.blue .postcard__title:hover {
-    color: $main-blue;
-}
-
-.blue .postcard__bar {
-    background-color: $main-blue;
-}
-
-.blue::before {
-    background-image: linear-gradient(-30deg, $main-blue-rgb-015, transparent 50%);
-}
-
-.blue:nth-child(2n)::before {
-    background-image: linear-gradient(30deg, $main-blue-rgb-015, transparent 50%);
-}
-
-.postcard .postcard__tagbox .red.play:hover {
-    background: $main-red;
-}
-
-.red .postcard__title:hover {
-    color: $main-red;
-}
-
-.red .postcard__bar {
-    background-color: $main-red;
-}
-
-.red::before {
-    background-image: linear-gradient(-30deg, $main-red-rgb-015, transparent 50%);
-}
-
-.red:nth-child(2n)::before {
-    background-image: linear-gradient(30deg, $main-red-rgb-015, transparent 50%);
-}
-
-.postcard .postcard__tagbox .yellow.play:hover {
-    background: $main-yellow;
-    color: black;
-}
-
-.yellow .postcard__title:hover {
-    color: $main-yellow;
-}
-
-.yellow .postcard__bar {
-    background-color: $main-yellow;
-}
-
-.yellow::before {
-    background-image: linear-gradient( -30deg, $main-yellow-rgb-015, transparent 50% );
-}
-
-.yellow:nth-child(2n)::before {
-    background-image: linear-gradient( 30deg, $main-yellow-rgb-015, transparent 50% );
-}
-
-@media screen and (min-width: 769px) {
-    .green::before {
-        background-image: linear-gradient( -80deg, $main-green-rgb-015, transparent 50% );
+    #doc-banner .block h {
+        font-size: 60px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    .green:nth-child(2n)::before {
-        background-image: linear-gradient( 80deg, $main-green-rgb-015, transparent 50% );
+    #doc-banner .block p {
+        color: white;
+        font-size: 27px;
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
     }
 
-    .blue::before {
-        background-image: linear-gradient( -80deg, $main-blue-rgb-015, transparent 50% );
-    }
 
-    .blue:nth-child(2n)::before {
-        background-image: linear-gradient(80deg, $main-blue-rgb-015, transparent 50%);
-    }
-
-    .red::before {
-        background-image: linear-gradient(-80deg, $main-red-rgb-015, transparent 50%);
-    }
-
-    .red:nth-child(2n)::before {
-        background-image: linear-gradient(80deg, $main-red-rgb-015, transparent 50%);
-    }
-
-    .yellow::before {
-        background-image: linear-gradient( -80deg, $main-yellow-rgb-015, transparent 50% );
-    }
-
-    .yellow:nth-child(2n)::before {
-        background-image: linear-gradient( 80deg, $main-yellow-rgb-015, transparent 50% );
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#p-services {
-    padding: 90px 0 80px;
-}
-
-#drug-services {
-    padding: 80px 0 80px;
+/* =========================
+         CONTENT area
+   =========================*/
+#doctors-cards {
+    background-color: #f3f4f6;
+    padding: 50px 0 10px;
     margin-bottom: 100px;
 }
 
-.pharmacy-img {
-    width: 636px;
-}
-
-.p-title {
-    font-size: 20px;
-    color: #dc2626;
-    margin-top: 50px;
-    margin-bottom: 3px;
-    font-weight: bold;
-    line-height: 20px;
-    background-color: #fca5a5;
-}
-
-.p-title-2 {
-    font-size: 20px;
-    color: black;
-    line-height: 60px;
-    margin-top: 10px;
-    margin-bottom: 3px;
-}
-
-.p-pargh {
-    font-size: 20px;
-    color: black;
-}
 
 
-.drug-title {
-    font-size: 20px;
-    color: #166534;
-    margin-top: 50px;
-    margin-bottom: 3px;
-    font-weight: bold;
-    line-height: 20px;
-    background-color: #d9f99d;
-}
 
-.drug-title-2 {
-    font-size: 20px;
-    color: black;
-    line-height: 60px;
-    margin-top: 10px;
-    margin-bottom: 3px;
-}
 
-.drug-p-1 {
-    font-size: 20px;
-    color: black;
-}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -289,6 +289,10 @@
       "PackagePath": "staticwebassets\\media\\labbanner.jpg"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\login.jpg",
+      "PackagePath": "staticwebassets\\media\\login.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\medical.jpg",
       "PackagePath": "staticwebassets\\media\\medical.jpg"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "204X5cC0nLTyVf4g3ixp9FJ+nOEuFu0VRfMFSRKq98o=",
+  "Hash": "62NZpHkiviGmuYFfw/kZn6vMGHnmp1Pa6xuRSNcGTuM=",
   "Source": "EleFiCNetMVC",
   "BasePath": "_content/EleFiCNetMVC",
   "Mode": "Default",
@@ -2276,6 +2276,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\labbanner.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\login.jpg",
+      "SourceId": "EleFiCNetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\",
+      "BasePath": "_content/EleFiCNetMVC",
+      "RelativePath": "media/login.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\login.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\medical.jpg",

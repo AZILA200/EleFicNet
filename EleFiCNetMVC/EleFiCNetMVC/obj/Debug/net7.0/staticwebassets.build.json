@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "62NZpHkiviGmuYFfw/kZn6vMGHnmp1Pa6xuRSNcGTuM=",
+  "Hash": "9fdjUhQVgSUhEi5Th7ZNEtl+DAnU4pEakuFhv/AxT/Q=",
   "Source": "EleFiCNetMVC",
   "BasePath": "_content/EleFiCNetMVC",
   "Mode": "Default",
@@ -2259,6 +2259,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\media\\instagram.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\lab1.jpg",
+      "SourceId": "EleFiCNetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\",
+      "BasePath": "_content/EleFiCNetMVC",
+      "RelativePath": "media/lab1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\lab1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\lab2.jpg",
+      "SourceId": "EleFiCNetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\",
+      "BasePath": "_content/EleFiCNetMVC",
+      "RelativePath": "media/lab2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\lab2.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\labbanner.jpg",

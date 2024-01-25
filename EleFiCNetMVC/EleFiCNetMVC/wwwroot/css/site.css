@@ -423,7 +423,7 @@ body {
 #lab-banner {
     background: url(../media/labbanner.jpg);
     background-size: cover;
-    padding: 300px 0;
+    padding: 150px 0;
     position: relative;
 }
 
@@ -465,6 +465,8 @@ a:hover {
 }
 
 /* Cards */
+
+
 .postcard {
     flex-wrap: wrap;
     display: flex;

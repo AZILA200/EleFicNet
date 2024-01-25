@@ -285,6 +285,14 @@
       "PackagePath": "staticwebassets\\media\\instagram.png"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\lab1.jpg",
+      "PackagePath": "staticwebassets\\media\\lab1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\lab2.jpg",
+      "PackagePath": "staticwebassets\\media\\lab2.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\labbanner.jpg",
       "PackagePath": "staticwebassets\\media\\labbanner.jpg"
     },

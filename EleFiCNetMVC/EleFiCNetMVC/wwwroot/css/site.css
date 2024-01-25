@@ -127,7 +127,7 @@ body {
 #hero-area {
     background: url('../media/indexbanner.jpg');
     background-size: cover;
-    padding: 390px 0;
+    padding: 150px 0;
     position: relative;
 }
 
@@ -144,18 +144,16 @@ body {
 }
 
 #hero-area .block h {
-    font-size: 60px;
-    color: black;
+    font-size: 70px;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 #hero-area .block p {
-    color: black;
-    font-size: 20px;
-    margin-left: 5px;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /* =========================

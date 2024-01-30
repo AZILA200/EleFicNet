@@ -723,6 +723,51 @@ a {
 }
 
 
+/* =========================
+         Emergency
+   =========================*/
+
+
+/* =========================
+         Hero area
+   =========================*/
+#emergency-banner {
+    background: url(../media/emergencybanner.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+}
+
+    #emergency-banner .block h {
+        font-size: 70px;
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #emergency-banner .block p {
+        color: black;
+        font-size: 27px;
+        margin-left: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+
+/* =========================
+         CONTENT area
+   =========================*/
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.img-md {
+    width: 7rem;
+    height: 7rem;
+}
+
 
 /* =========================
            LOG IN

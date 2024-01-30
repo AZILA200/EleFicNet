@@ -273,8 +273,28 @@
       "PackagePath": "staticwebassets\\media\\drug.jpg"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\eca.jpg",
+      "PackagePath": "staticwebassets\\media\\eca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\ekav.jpg",
+      "PackagePath": "staticwebassets\\media\\ekav.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\emergencybanner.jpg",
+      "PackagePath": "staticwebassets\\media\\emergencybanner.jpg"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\facebook.png",
       "PackagePath": "staticwebassets\\media\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\fireservice.jpg",
+      "PackagePath": "staticwebassets\\media\\fireservice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\hospital.jpg",
+      "PackagePath": "staticwebassets\\media\\hospital.jpg"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\indexbanner.jpg",
@@ -309,6 +329,10 @@
       "PackagePath": "staticwebassets\\media\\mlabIcon.jpg"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\nhs.png",
+      "PackagePath": "staticwebassets\\media\\nhs.png"
+    },
+    {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\pharmacy.jpg",
       "PackagePath": "staticwebassets\\media\\pharmacy.jpg"
     },
@@ -319,6 +343,10 @@
     {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\pharmacybanner.jpg",
       "PackagePath": "staticwebassets\\media\\pharmacybanner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\police.jpg",
+      "PackagePath": "staticwebassets\\media\\police.jpg"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\EleFicNet\\EleFiCNetMVC\\EleFiCNetMVC\\wwwroot\\media\\twitter.png",
